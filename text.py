@@ -9,7 +9,7 @@ print("\u001b[33;1m")
 print("\u001b[44m")
 print(f"{original_text}")
 print("\u001b[0m")
-color_start = int(input('С какого символа начать покраску?'))
+color_start = int(input('С какого символа начать покраску?')) -1
 color_end = int(input('Каким символом закончить покраску?'))
 color_name = input('В какой цвет радуги покрасить текст?')
 if color_name == "красный":
